@@ -1,2 +1,4 @@
 "use strict"
-module.exports = (path) => import(path);
+module.exports = function (path) {
+    return import(path);
+};
