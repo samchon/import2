@@ -1,5 +1,7 @@
 # Import2
-A dynamic `import()` function who can avoid transpiled to `require()` function.
+A dynamic `import()` function which can avoid transpiling to `require()` function.
+
+It also can avoid unexpected bundling.
 
 ```typescript
 import import2 from "import2";
